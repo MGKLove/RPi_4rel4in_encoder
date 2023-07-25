@@ -8,7 +8,8 @@ try:
   while True:
     val = rel.get_encoder(1)
     total=0
-    full= int(val+totalprint(full)
+    full= int(val+total)
+    print(full)
 
 except KeyboardInterrupt:
   rel.reset_encoder(1)
