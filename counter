@@ -3,7 +3,7 @@ import sm_4rel4in
 import time
 
 rel=sm_4rel4in.SM4rel4in(0)
-rel.set_encoder_cfg)1,1)
+rel.set_encoder_cfg(1,1)
 try:
   while True:
     val = rel.get_encoder(1)
