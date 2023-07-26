@@ -7,9 +7,9 @@ rel.set_encoder_cfg(1,1)
 try:
   while True:
     val = rel.get_encoder(1)
-    total=0
-    full= int(val+total)
-    print(full)
+    
+    
+    print(val)
 
 except KeyboardInterrupt:
   rel.reset_encoder(1)
